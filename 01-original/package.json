@@ -1,0 +1,15 @@
+{
+  "name": "01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "PORT=3000 nodemon main.js",
+    "curl": "curl -v http://localhost:3000/",
+    "deploy": "gcloud run deploy sandbox-01 --source . --region asia-northeast1 --platform managed --allow-unauthenticated"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
